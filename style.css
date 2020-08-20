@@ -63,21 +63,18 @@ span{
 }
 .paroles{
     margin:auto;
-    font-size:.8em;
     background-color:yellow;
     font-size:2em;
-    margin:auto;
     padding:1%;
     position:fixed;
     bottom:0px;
     right:0px;
+    
 }
 .chore {
     margin: auto;
-    font-size: .8em;
     background-color: yellow;
     font-size: 2em;
-    margin: auto;
     padding: 1%;
     position: fixed;
     bottom: 0px;
@@ -103,3 +100,49 @@ span{
     height: 10%;
     margin:2%;
   }
+
+/******MEDIA QUERIES*******/ /*TABLETTE*/
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .paroles {
+        font-size: 1.2em;
+    }
+
+    .chore {
+        font-size: 1.2em;
+    }
+
+    .chanson {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/******MEDIA QUERIES*******/ /*MOBILE*/
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .paroles {
+        font-size: 0.8em;  /*lien en footer*/
+    }
+
+    .chore {
+        font-size: 0.8em; /*lien en footer*/
+    }
+
+    .chanson {
+        font-size: 0.9em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
