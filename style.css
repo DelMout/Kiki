@@ -10,8 +10,7 @@ body{
 }
 
 .gypsy {
-    background: yellow url(Gypsy60.jpg) no-repeat;
-    background-position:50% 50%;
+    background: yellow url(Gypsy60.jpg) no-repeat center;
     background-size: 90%;
     background-attachment: fixed;
 }
@@ -123,8 +122,13 @@ span{
     h2 {
         font-size: 1.5em;
     }
-   
+
+    .gypsy {
+        background: yellow url(Gypsy60.jpg) repeat center;
+        background-size: 90%;
+        background-attachment: fixed;
     }
+}
 
 /******MEDIA QUERIES*******/ /*MOBILE*/
 @media only screen and (max-width: 767px) {
