@@ -4,20 +4,26 @@
 body{
     display:flex;
     flex-direction:column;
-    background:yellow url(Gypsy60.jpg) no-repeat center;
-    background-size:90%;
-    background-attachment:fixed;
+    background-color:yellow;
     font-family:Arial;
+    margin:0;
+}
+
+.gypsy {
+    background: yellow url(Gypsy60.jpg) no-repeat center;
+    background-size: 90%;
+    background-attachment: fixed;
 }
 header{
     background-color:yellow;
-
-}
+    top:0px;
+   }
 
 h1{
     text-align:center;
     color:deeppink;
     font-size:3em;
+   
 }
 .corps {
     margin-right: auto;
@@ -56,11 +62,8 @@ span{
     color:mediumblue;
 }
 .paroles{
-    font-family:Arial;
     margin:auto;
     font-size:.8em;
-}
-footer{
     background-color:yellow;
     font-size:2em;
     margin:auto;
@@ -69,5 +72,34 @@ footer{
     bottom:0px;
     right:0px;
 }
+.chore {
+    margin: auto;
+    font-size: .8em;
+    background-color: yellow;
+    font-size: 2em;
+    margin: auto;
+    padding: 1%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.ki {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top:3%;
+   }
 
 
+.lettre_i{
+    width:6%;
+    height:6%;
+    margin:2%;
+   }
+
+.lettre_k {
+    width: 10%;
+    height: 10%;
+    margin:2%;
+  }
