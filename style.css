@@ -179,6 +179,14 @@ flex-direction:column;
     margin-top:3%;
    }
 
+.affiche {
+    display: flex;
+    justify-content: center;
+}
+
+.the_affiche{
+    width:60%;
+}
 
 .lettre_i{
     width:6%;
